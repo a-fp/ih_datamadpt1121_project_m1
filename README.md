@@ -12,18 +12,18 @@ There are 2 main datasources:
 
 - **API REST**. We will use the API REST from the [Portal de datos abiertos del Ayuntamiento de Madrid](https://datos.madrid.es/nuevoMadrid/swagger-ui-master-2.2.10/dist/index.html?url=/egobfiles/api.datos.madrid.es.json#/) for download the data from the monuments.
 
-## **Executing program:robot_face:**
+## **Executing program: :robot_face:**
 
 Enter in the terminal:
-'''bash
-    Python main.py -f *'parameter'*
-'''
+```bash
+    Python main.py -f "parameter"
+```
 The parameters are: 'all' or 'minimum':
 
 - **“minimum”:** With 'minimum', you will get a table with the address of the nearest BiciMAD station from the monumemt that you choose, and it will download as `.csv` .
 - **“all”:**  With 'all', you will get a table with the address of the nearest BiciMAD station from the monumemt that you choose, and it will download as `.csv` .
 
-## **Project Main Stack: bulb::**
+## **Project Main Stack: :bulb:**
 
 - [Azure SQL Database](https://portal.azure.com/)
 - [SQL Alchemy](https://docs.sqlalchemy.org/en/13/intro.html) (alternatively you can use _Azure Data Studio_)
