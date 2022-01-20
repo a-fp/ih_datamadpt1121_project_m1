@@ -16,7 +16,7 @@ There are 2 main datasources:
 
 Enter in the terminal:
 '''bash
-Python main.py -f 'parameter'
+    Python main.py -f *'parameter'*
 '''
 The parameters are: 'all' or 'minimum':
 
